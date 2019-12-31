@@ -29,4 +29,4 @@
 
     3. Once the calculations are done, the real DOM will be updated with only the things that have actually changed.
         (public/images/vdom3.png)
-    
+  
