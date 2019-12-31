@@ -22,11 +22,11 @@
     The *Virtual DOM* works in three simple steps.
 
     1. Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.
-       (public/images/vd1.png)
+       ![virtualdom1](images/vd1.png)
 
     2. Then the difference between the previous DOM representation and the new one is calculated.
-       (public/images/vd2.png)
+       ![virtualdom2](images/vd2.png)
 
     3. Once the calculations are done, the real DOM will be updated with only the things that have actually changed.
-       (public/images/vd3.png)
+       ![virtualdom3](images/vd3.png)
     
