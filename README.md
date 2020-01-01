@@ -34,6 +34,7 @@
 
        ![virtualdom3](images/vd3.png)
     
+
 4.  **What is difference between Virtual DOM and Real DOM?**
 
     Below are the difference between virtual dom and real dom.
