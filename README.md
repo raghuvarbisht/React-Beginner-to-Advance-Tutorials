@@ -45,15 +45,25 @@
     DOM manipulation is fast | DOM manipulation is very slow
     No memory wastage | Too much memory wastage.
     Updates the JSX if element updates | Creates a new DOM if element updates
-  
-  
- 5. **What is JSX?**
- 
-    JSX is a XML-like syntax extension to JavaScript/ECMAScript.
-
-    ```
-    const element = <h1> I am JSX.</h1>;    
-    ```
-    
     
 
+5.  **What is JSX?**
+    JSX is a XML-like syntax extension to ECMAScript.
+    You can embed any JavaScript expression in JSX by wrapping it in curly braces. After compilation, JSX expressions become regular JavaScript objects. This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions. 
+
+    Below is the syntax for a basic element in React with JSX and its equivalent without it.
+    
+    ```
+    const element = <h1 className="greeting"> Hello, world!</h1>;
+
+    ```
+    
+    It is equiblant to 
+
+    ```    
+    const element = React.createElement(
+                        'h1', 
+                        {className : 'greeting'},     
+                        'Hello, world!'
+                    )
+    ```
