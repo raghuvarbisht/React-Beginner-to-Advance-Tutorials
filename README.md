@@ -48,8 +48,10 @@
     
 
 5.  **What is JSX?**
-    JSX is a XML-like syntax extension to ECMAScript.
-    You can embed any JavaScript expression in JSX by wrapping it in curly braces. After compilation, JSX expressions become regular JavaScript objects. This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions. 
+    
+    JSX is a XML-like syntax extension to ECMAScript. You can embed any JavaScript expression in JSX by wrapping it in curly braces.     
+    After compilation, JSX expressions become regular JavaScript objects. This means that you can use JSX inside of if statements and 
+    for loops, assign it to variables, accept it as arguments, and return it from functions. 
 
     Below is the syntax for a basic element in React with JSX and its equivalent without it.
     
@@ -57,9 +59,8 @@
     const element = <h1 className="greeting"> Hello, world!</h1>;
 
     ```
+    OR
     
-    It is equiblant to 
-
     ```    
     const element = React.createElement(
                         'h1', 
