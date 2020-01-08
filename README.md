@@ -47,13 +47,12 @@
     Updates the JSX if element updates | Creates a new DOM if element updates
   
   
- 5. ###What is JSX?
+ 5. **What is JSX?**
  
     JSX is a XML-like syntax extension to JavaScript/ECMAScript.
 
     ```
-    const element = <h1> I am JSX.</h1>;
-    
+    const element = <h1> I am JSX.</h1>;    
     ```
     
     
