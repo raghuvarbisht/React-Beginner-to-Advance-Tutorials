@@ -10,6 +10,9 @@ import SetStateExample from './components/SetStateExample';
 import BindingEventExample from './components/BindingEventExample';
 import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
+import SetStateUseStateHooks from './components/SetStateUseStateHooks';
+import TwoWayBinding from './components/TwoWayBinding';
+import StateImmutableList from './components/StateImmutableList';
 
 function App() {
   return (
@@ -40,6 +43,9 @@ function App() {
 
       {/** How to use setState?  using example */}
       <SetStateExample/>
+
+      {/** How to use useState hooks?  using example */}
+      <SetStateUseStateHooks/>
       
       {/** How to use event binding?  using example */}
       <BindingEventExample/>
@@ -49,6 +55,12 @@ function App() {
       
       {/** How to use ConditionalRendering?  using example */}
       <ConditionalRendering/>
+
+      {/** Two way bidning */}
+      <TwoWayBinding/>
+
+
+      <StateImmutableList/>
 
     </div>
   );

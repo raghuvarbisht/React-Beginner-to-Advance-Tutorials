@@ -1,8 +1,7 @@
 import React ,{Component} from 'react';
 
 class StateExample extends Component {
-    constructor(){
-        super();
+    constructor(){super();
         this.state = {
            message : 'Raghuvar'
         }
